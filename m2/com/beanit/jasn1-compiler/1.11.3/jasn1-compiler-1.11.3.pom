@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.beanit</groupId>
+  <artifactId>jasn1-compiler</artifactId>
+  <version>1.11.3</version>
+  <name>jASN1 Compiler</name>
+  <description>jASN1 Compiler generates Java classes out of ASN.1 code that can be used to encode/decode BER data.</description>
+  <url>http://www.beanit.com/</url>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>beanit</id>
+      <name>Beanit GmbH</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>none</connection>
+    <url>none</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>antlr</groupId>
+      <artifactId>antlr</artifactId>
+      <version>2.7.7</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.beanit</groupId>
+      <artifactId>jasn1</artifactId>
+      <version>1.11.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <version>5.5.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

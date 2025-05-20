@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.krakens</groupId>
+  <artifactId>java-grok</artifactId>
+  <version>0.1.9</version>
+  <name>Java Grok</name>
+  <description>Java Grok is simple API that allows you to easily parse logs and other files (single line). With Java Grok, you can turn unstructured log and event data into structured data (JSON).</description>
+  <url>https://github.com/thekrakken/java-grok</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>anthony-corbacho</id>
+      <name>Anthony Corbacho</name>
+      <email>manfred@sonatype.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:thekrakken/java-grok.git</connection>
+    <developerConnection>scm:git:git@github.com:thekrakken/java-grok.git</developerConnection>
+    <url>scm:git:git@github.com:thekrakken/java-grok.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.7</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.assertj</groupId>
+      <artifactId>assertj-core</artifactId>
+      <version>3.9.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>24.0-jre</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

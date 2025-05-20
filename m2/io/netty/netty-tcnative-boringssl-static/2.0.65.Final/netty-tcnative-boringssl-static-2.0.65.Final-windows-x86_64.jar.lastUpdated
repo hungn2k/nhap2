@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon May 19 17:24:59 ICT 2025
+https\://build.shibboleth.net/nexus/content/repositories/releases/.error=
+https\://build.shibboleth.net/nexus/content/repositories/releases/.lastUpdated=1747650298212
+https\://repo.maven.apache.org/maven2/.lastUpdated=1747650299016

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.dropbox.core</groupId>
+  <artifactId>dropbox-core-sdk</artifactId>
+  <version>5.4.6</version>
+  <name>Dropbox SDK Java</name>
+  <description>A Java library to access Dropbox's HTTP-based Core API v2.</description>
+  <url>https://github.com/dropbox/dropbox-sdk-java/</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>http://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>dropbox-api-team</id>
+      <name>Dropbox API Team</name>
+      <email>api-support@dropbox.com</email>
+      <url>https://github.com/dropbox/</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/dropbox/dropbox-sdk-java.git</connection>
+    <developerConnection>scm:git:git@github.com:dropbox/dropbox-sdk-java.git</developerConnection>
+    <url>https://github.com/dropbox/dropbox-sdk-java/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-core</artifactId>
+      <version>2.13.5</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.palantir.safe-logging</groupId>
+  <artifactId>preconditions</artifactId>
+  <version>1.16.0</version>
+  <name>preconditions</name>
+  <description>Palantir open source project</description>
+  <url>https://github.com/palantir/safe-logging</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>palantir</id>
+      <name>Palantir Technologies Inc</name>
+      <organizationUrl>https://www.palantir.com</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <url>git@github.com:palantir/safe-logging.git</url>
+  </scm>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.google.code.findbugs</groupId>
+        <artifactId>jsr305</artifactId>
+        <version>3.0.2</version>
+      </dependency>
+      <dependency>
+        <groupId>com.google.errorprone</groupId>
+        <artifactId>error_prone_annotations</artifactId>
+        <version>2.5.1</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+  <dependencies>
+    <dependency>
+      <groupId>com.palantir.safe-logging</groupId>
+      <artifactId>safe-logging</artifactId>
+      <version>1.16.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.errorprone</groupId>
+      <artifactId>error_prone_annotations</artifactId>
+      <version>2.5.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.palantir.safe-logging</groupId>
+      <artifactId>safe-logging-root</artifactId>
+      <version>1.16.0</version>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+  </dependencies>
+</project>

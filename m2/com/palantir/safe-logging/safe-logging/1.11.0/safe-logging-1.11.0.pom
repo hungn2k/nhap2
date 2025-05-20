@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+
+  <url>https://github.com/palantir/safe-logging</url>
+
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <id>palantir</id>
+      <name>Palantir Technologies Inc</name>
+      <organizationUrl>https://www.palantir.com</organizationUrl>
+    </developer>
+  </developers>
+  <description>Palantir open source project</description>
+
+  <organization>
+    <name>Palantir Technologies Inc</name>
+    <url>https://palantir.com</url>
+  </organization>
+
+  <scm>
+    <url>https://github.com/palantir/safe-logging</url>
+  </scm>
+  
+
+  <groupId>com.palantir.safe-logging</groupId>
+  <artifactId>safe-logging</artifactId>
+  <version>1.11.0</version>
+  <name>safe-logging</name>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.google.code.findbugs</groupId>
+        <artifactId>jsr305</artifactId>
+        <version>3.0.2</version>
+        <scope>compile</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>
